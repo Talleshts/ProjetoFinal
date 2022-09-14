@@ -51,6 +51,10 @@ div.card p{
     font-weight: 400;
     font-size: 1em;
     color: rgba(255, 255, 255, 0.67);
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
     /* margin: 15px 0px; */
 }
 div.card button{

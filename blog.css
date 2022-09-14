@@ -52,6 +52,10 @@ main section#blog .container .cards-blog .card-blog .card-content p{
     font-size: 1.2em;
     line-height: 2em;
     color: #737373;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
 }
 main section#blog .container .cards-blog .card-blog .card-content .informacao{
     display: flex;
@@ -67,5 +71,4 @@ main section#blog .container .cards-blog .card-blog .card-content .informacao a{
     text-decoration: none;
     font-size:0.85em; 
 }
-
 /* ******** FIM DA MAIN*************** */
